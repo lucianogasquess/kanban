@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KanBan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <img src="Vector.png" alt="Logo do site" class="logo" />
+
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <ion-icon name="tablet-portrait"></ion-icon>
+              Boards
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="people"></ion-icon>
+              Equipes
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="document-text"></ion-icon>
+              Relatórios
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="cog"></ion-icon>
+              Ajustes
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="inner">
+          <section class="title-avatar">
+            <h1>Meu KanBan <img src="./assets/pencil.svg" alt="" /></h1>
+            <img src="https://github.com/lucianogasquess.png" alt="avatar" />
+          </section>
+
+          <section class="filter">
+            <button>
+              <ion-icon name="filter-outline"></ion-icon>
+              <span>Filtrar</span>
+            </button>
+            <div class="input-wrapper">
+              <ion-icon name="search-outline"></ion-icon>
+              <input
+                type="text"
+                placeholder="Busque por cards, assuntos ou responsáveis..."
+              />
+            </div>
+          </section>
+
+      
+          <section class="kanban">
+            <div class="todo">
+              <h2>A fazer</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3> Estudos Inglês</h3>
+                  <p>
+                    Segunda-feira: Gramática
+                    <br>
+                    Terça-feira: Vocabulário
+                    <br>
+                    Quarta-feira: Leitura
+                    <br>
+                    Quinta-feira: Escrita
+                    <br>
+                    Sexta-feira: Audição
+                    <br>
+                    Segunda-feira: Revisão de Inglês
+                    <br>
+                    Revisar gramática e vocabulário da semana
+                    <br>
+                    Prática com exercícios adicionais
+
+                  </p>
+                  <div class="tags">
+                    <span>Inglês</span>
+                    <span>Rotina</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <h3>Estudos Programação</h3>
+                  <p>
+                    Segunda-feira: Fundamentos de Programação
+                     <br>
+                    Terça-feira: Algoritmos e Estruturas de Dados
+                     <br>
+                    Quarta-feira: Linguagem de Programação (ex: Python, JavaScript)
+                     <br>
+                    Quinta-feira: Desenvolvimento Web
+                     <br>
+                    Sexta-feira: JavaScript e frameworks (ex: React, Angular)
+                     <br>
+                     Terça-feira: Revisão de Programação
+                     <br>
+                     Revisar conceitos e código escrito durante a semana
+                     <br>
+                     Prática com novos exercícios
+                  </p>
+                  <div class="tags">
+                    <span>Programaçao</span>
+                    <span>Desenvolvimento Web</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doing">
+              <h2>Fazendo</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3> Terminando meu KanBan 👍</h3>
+                  <p>
+                    
+                  </p>
+                  <div class="tags">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="done">
+              <h2>Feito</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3> Estudos 🧑‍💻</h3>
+                  <p>
+                    Projetos práticos e Inglês
+                  </p>
+                  <div class="tags">
+                    <span>Inglês</span>
+                    <span>Estudos</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
